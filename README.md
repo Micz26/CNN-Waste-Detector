@@ -14,7 +14,6 @@ The Waste Detection System is a computer vision-based application that identifie
 
 
 
-
 ## Project Overview
 
 The project is divided into several key components, including data preprocessing, model creation, model training, and real-time waste classification using a webcam. Below, each component is explained in more detail.
@@ -81,6 +80,8 @@ The data used in this project was obtained from the [TrashNet Dataset](https://g
 
 Please refer to the [original repository](https://github.com/garythung/trashnet) for more information about the dataset and its creators.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
 ## Contact
 

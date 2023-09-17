@@ -2,6 +2,15 @@
 
 The Waste Detection System is a computer vision-based application that identifies and classifies different types of waste materials, including cardboard, glass, metal, paper, and plastic. This system utilizes TensorFlow and OpenCV to create a waste detection model, preprocess data, train the model, and perform real-time waste classification from a live video feed.
 
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=HT6F2x5samY">
+    <img src="https://img.youtube.com/vi/HT6F2x5samY/0.jpg" alt="Video">
+  </a>
+</p>
+
+
+
 ## Project Overview
 
 The project is divided into several key components, including data preprocessing, model creation, model training, and real-time waste classification using a webcam. Below, each component is explained in more detail.

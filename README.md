@@ -65,7 +65,7 @@ This part of the project demonstrates real-time waste classification using a web
 
 ## Credits
 
-The data used in this project was obtained from the [TrashNet Dataset](https://github.com/garythung/trashnet), created by Gary Thung and Mindy Yang. We would like to express our gratitude for making this valuable dataset available to the research community.
+The data used in this project was obtained from the [TrashNet Dataset](https://github.com/garythung/trashnet), created by Gary Thung and Mindy Yang. I would like to express our gratitude for making this valuable dataset available to the research community.
 
 Please refer to the [original repository](https://github.com/garythung/trashnet) for more information about the dataset and its creators.
 

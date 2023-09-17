@@ -40,6 +40,10 @@ The Convolutional Neural Network (CNN) model is responsible for waste classifica
 
 The model is tested on a test dataset to evaluate its performance. Key metrics, including precision, recall, and categorical accuracy, are calculated to assess the model's ability to classify waste materials accurately.
 
+## Results
+
+During training, the model achieved an accuracy of approximately 57.90%, and on the validation dataset, it demonstrated an accuracy of about 61.04%. While these metrics show that the model has the capability to classify waste items effectively, it's worth noting that further optimization may be possible to achieve even higher accuracy. Additionally, precision, recall, and categorical accuracy metrics were computed on a test dataset, with results indicating values of 0.766, 0.240, and 0.533, respectively. These metrics provide insights into the model's ability to make accurate predictions.
+
 ## Model Testing with Recorded Data
 
 This part of the project demonstrates real-time waste classification using a webcam. The steps include:
@@ -59,9 +63,17 @@ This part of the project demonstrates real-time waste classification using a web
   </a>
 </p>
 
-## Results
+In the recorded data test, the model exhibited varying degrees of confidence in identifying different types of waste items. It correctly identified metal waste with a high probability value of 70%, demonstrating strong classification capability in this category.
 
+However, it identified plastic bottles as plastic with a probability of approximately 35%, which is relatively low and suggests potential room for improvement in distinguishing plastic items more accurately.
 
+The model correctly recognized glass bottles as glass with a probability of 55%, indicating its effectiveness in this category.
+
+For paper waste, the model showed a probability of 40% for correct identification.
+
+Unfortunately, the model was unable to identify cardboard effectively in this particular test.
+
+These results highlight the model's performance on a real-world dataset and suggest areas for further refinement and optimization to enhance its accuracy and reliability in waste classification.
 
 ## Credits
 

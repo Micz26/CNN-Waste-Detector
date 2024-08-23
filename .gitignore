@@ -24,16 +24,13 @@ env/
 *.log
 *.sqlite3
 
-# Python project files
-poetry.lock
-
 # Ignore all .pkl files
 *.pkl
 
 # Ignore all files inside the pickle folder
 pickle/*
 
-# But don't ignore the folder itself, and don't ignore a placeholder file inside the folder
+# keep pickle as empty folder
 !pickle/
 !pickle/.gitkeep
 

@@ -27,12 +27,14 @@ env/
 # Python project files
 poetry.lock
 
-# pickle
+# Ignore all .pkl files
 *.pkl
 
-# Ignore all files in the pickle folder
+# Ignore all files inside the pickle folder
 pickle/*
 
-# But don't ignore the folder itself
+# But don't ignore the folder itself, and don't ignore a placeholder file inside the folder
 !pickle/
+!pickle/.gitkeep
+
 
